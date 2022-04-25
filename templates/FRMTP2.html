@@ -1,0 +1,20 @@
+<form method="post">
+    <div>
+    <input type="radio" id="Administrator" name="user" value="Administrator" >
+  <label for="Administrator">Administrator</label>
+        <input type="radio" id="Guest" name="user" value="Guest">
+  <label for="Guest">Guest</label>
+    </div>
+    <div>
+        <label for="usr">x :</label>
+        <input type="text" id="usr" name="usr">
+    </div>
+    <div>
+        <label for="mdp">y :</label>
+        <input type="password" id="mdp" name="mdp">
+    </div>
+    <div class="button">
+        <button type="submit" formaction="http://127.0.0.1:5000/login">Login</button>
+        <button type="reset" >Effacer</button>
+    </div>
+</form>

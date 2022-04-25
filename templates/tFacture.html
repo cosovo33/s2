@@ -1,0 +1,37 @@
+{%extends 'layouts/default.html'%}
+
+{%block body%}
+<h1>Facture de : {{value}} {{value1}}</h1>
+<table>
+    <tr>
+        <th>Produit</th>
+        <th>Prix Unitaire</th>
+        <th>Quantité</th>
+        <th>Prix</th>
+    </tr>
+    <tr>
+        <td>Clavier</td>
+        <td>{{value2}}</td>
+        <td>{{value3}}</td>
+        <td>{{value8}}</td>
+    </tr>
+    <tr>
+        <td>Souris</td>
+        <td>{{value4}}</td>
+        <td>{{value5}}</td>
+        <td>{{value9}}</td>
+    </tr>
+    <tr>
+        <td>Scanner</td>
+        <td>{{value6}}</td>
+        <td>{{value7}}</td>
+        <td>{{value10}}</td>
+    </tr>
+    <tr>
+        <td colspan="3">Prix Totale</td>
+        <td>{{value11}}</td>
+    </tr>
+</table>
+<a href="/FRMTP2e2"><button>Retour</button></a>
+
+{%endblock%}
